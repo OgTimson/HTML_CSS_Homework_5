@@ -1,0 +1,228 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url(./fonts/Gilroy-Bold.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url(./fonts/Gilroy-Medium.woff2);
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url(./fonts/Gilroy-Semibold.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background: #fff;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.conteiner {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 40px;
+  margin-bottom: 84px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation {
+  width: 533px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  color: #000;
+  font-size: 14px;
+  font-family: "Gilroy-SemiBold";
+}
+
+.icon {
+  display: flex;
+  gap: 3px;
+  align-items: baseline;
+}
+
+.navigation__link:focus {
+  color: #f25822;
+}
+
+main {
+}
+
+.content__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.content__block {
+  width: 522px;
+}
+
+.content__maintitle {
+  color: #000;
+  font-size: 60px;
+  margin-bottom: 17px;
+}
+
+.content__description {
+  width: 466px;
+  color: #888;
+  font-size: 20px;
+  font-family: Gilroy-Medium;
+  margin-bottom: 37px;
+}
+
+.contents__btns {
+  display: flex;
+  gap: 72px;
+}
+
+.contents__btns__btn {
+  border-radius: 50px;
+  background: #f25822;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+}
+
+.contents__btns__btn:hover {
+  color: #aaa;
+  background: none;
+}
+
+article {
+  margin-bottom: 100px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons__lists {
+  display: flex;
+  gap: 59px;
+  margin-bottom: 100px;
+}
+.icon__list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  gap: 25px;
+  padding: 40px 30px 25px 30px;
+}
+
+.icon__list h3 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: -8px;
+}
+
+.icon__list p {
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+.icon__list h4 {
+  color: #000;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+.icon__shadow {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.advantages__list {
+  background: #fafafa;
+  padding-top: 92px;
+  padding-bottom: 100px;
+}
+
+.advantages__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.advantages__text h2 {
+  color: #000;
+  font-size: 45px;
+  margin-bottom: 19px;
+}
+
+.advantages__text p {
+  width: 682px;
+  color: #666;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  line-height: 150%;
+  margin-bottom: 50px;
+}
+
+.advantages__cards {
+  display: flex;
+  gap: 30px;
+}
+
+.advantage__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 0 30px 50px 30px;
+}
+
+.card__shadow {
+  box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
+}
+
+.advantage__card h3 {
+  color: #000;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.advantage__card p {
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  line-height: 150%;
+  margin-bottom: 39px;
+}
